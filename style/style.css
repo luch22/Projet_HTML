@@ -1,0 +1,125 @@
+p {
+	font-size: 22px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #07112c;
+    letter-spacing: 1px;
+}
+a {
+    color: #c70d0d93;
+    font-size: 40px;
+    
+}
+a:hover {
+    color: #b8740f93;
+}
+a:visited {
+    color: #14d1d1;
+    font-style: oblique;    
+}
+body {
+    background: /*radial-gradient(rgb(105, 22, 237), rgb(90, 80, 20))*/lightslategray;
+    width: 90%;
+    margin: auto;
+    /*background-image: url("mon_image.jpg");*/
+    background-position: bottom right;
+    background-size: cover;
+    font-size: 16px;
+
+}
+q {
+    font-size: 160%;
+    background-color: rgba(211, 211, 211, 1);  
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin: 80px 24% 80px 24%;  
+    text-transform: uppercase;  
+}
+i{
+    border-left: 10px solid;
+}
+i.farmer{
+     border-color: rgb(79, 189, 45);
+     background-color: rgba(79, 189, 45, 0.144);
+
+}
+i.villager{
+    border-color: rgb(210, 223, 28);
+    background-color: rgba(210, 223, 28, 0.144);
+}
+
+header > h1
+{
+    background-color: yellow;
+}
+.bad{
+    text-transform: uppercase;
+    color: red;
+}
+.good{
+    text-transform: uppercase;
+    color: green;
+}
+table{
+    background-color: orange;
+    border: 4px solid black;
+    border-style:solid;
+    padding: 7px;
+    
+    font-size: 30px;
+}
+table tr:nth-child(odd) td{
+    background-color: grey ;
+}
+table tr:nth-child(even) td{
+    background-color: white ;
+}
+li :first-child{
+    background-image: url("Pouce.png");
+    padding-right: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+li:nth-child(3) {
+    background-image: url("Pouce_vers_bas.png");
+    padding-right: 20px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: fit-content;
+}
+li:nth-child(4) {
+    background-image: url("chat.png");
+    padding-right: 20px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: fit-content;
+}
+p :first-child{
+    font-weight: bold;
+}
+#le_mec_zarbi{
+    margin: 40px;
+    float: left;
+    width: 460px;
+}
+#wtf_cailloux{
+    margin: 20px;
+    float: right;
+    width: 800px;
+    flex-basis: auto;
+}
+#le_vieux_mec{
+    margin: 20px;
+    float: left;
+    width: 800px;
+}
+#la_base{
+    width: 90%;
+    border: transparent;
+
+}
+figcaption{
+    text-align: center;
+}
